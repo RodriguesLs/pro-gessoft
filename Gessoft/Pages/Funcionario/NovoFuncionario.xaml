@@ -1,0 +1,129 @@
+﻿    <Page
+    x:Class="Gessoft.Pages.Funcionario.NovoFuncionario"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Gessoft.Pages.Funcionario"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid >
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="6*" />
+                <RowDefinition Height="40*" />
+
+            </Grid.RowDefinitions>
+
+
+
+            <Grid Grid.Row="0" Background="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10*" />
+                    <ColumnDefinition Width="120*"/>
+                    <ColumnDefinition Width="0*"/>
+                    <ColumnDefinition Width="373*" />
+                    <ColumnDefinition Width="127*" />
+                    <ColumnDefinition Width="110*" />
+                    <ColumnDefinition Width="140*" />
+                    <ColumnDefinition Width="170*" />
+                    <ColumnDefinition Width="316*" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center"  x:Name="btn_VoltarHome"  IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}" Height="51" Margin="36,28,0,21" Width="49" Click="btn_VoltarHome_Click"/>
+
+                <TextBlock Grid.Column="2" FontSize="64" Text="Funcionário" Margin="0,2,8,0" FontFamily="Segoe UI" Grid.ColumnSpan="2" />
+
+                <Button Grid.Column="3" Content="Consultar" x:Name="btn_ConsultarFuncionario"           Tag="0" BorderThickness="0" FontFamily="Segoe UI" VerticalAlignment="Top"       Margin="365,50,0,0" Height="34" Width="94"      Click="btn_ConsultarFuncionario_Click" Grid.ColumnSpan="2" />
+                <Button Grid.Column="5" Content="Novo"      x:Name="btn_NovoFuncionario"                Tag="1" BorderThickness="0" FontFamily="Segoe UI" VerticalAlignment="Bottom"    Margin="0,0,0,16" Height="34" Width="67"        Click="btn_NovoFuncionario_Click" />
+                <Button Grid.Column="6" Content="Alterar"   x:Name="btn_AlterarFuncionario"             Tag="2" BorderThickness="0" FontFamily="Segoe UI" VerticalAlignment="Bottom"    Margin="0,0,0,16" Height="34" Width="89"        Click="btn_AlterarFuncionario_Click" />
+
+            </Grid>
+
+            <Grid x:Name="_flipVw"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" ManipulationMode="All">
+                <Grid.Transitions>
+                    <TransitionCollection>
+                        <!--<EdgeUIThemeTransition/> Caindo -->
+                        <PaneThemeTransition/>
+                        <!--Vindo de lado de um jeito muito foda -->
+                        <!--<EntranceThemeTransition/> Vindo de Lado-->
+
+                    </TransitionCollection>
+                </Grid.Transitions>
+
+                <!--==================== Novo Cadastro ==================-->
+                <Grid Background="#FF007ACC" >
+                    <Grid  Width="Auto" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+
+                        <TextBlock      x:Name="lbl_Titulo_Novo_Cadastro"  Text="Novo cadastro"          Margin="34,0,720,521" FontSize="65"  Style="{StaticResource PageHeaderTextStyle}" />
+                        
+                        <TextBlock      x:Name="lbl_Novo_Nome"              HorizontalAlignment="Left"    Margin="123,93,0,0"        VerticalAlignment="Top"      Text="Nome:"                  FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Novo_RG"                HorizontalAlignment="Left"    Margin="149,137,0,0"       VerticalAlignment="Top"      Text="RG:"                    FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Novo_CPF"               HorizontalAlignment="Left"    Margin="581,137,0,0"       VerticalAlignment="Top"      Text="CPF:"                   FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Novo_Telefone"          HorizontalAlignment="Left"    Margin="106,362,0,0"       VerticalAlignment="Top"      Text="Telefone:"              FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Novo_Celular"           HorizontalAlignment="Left"    Margin="472,362,0,0"       VerticalAlignment="Top"      Text="Celular:"               FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Novo_Email"             HorizontalAlignment="Left"    Margin="823,362,0,0"       VerticalAlignment="Top"      Text="E-mail:"                FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Novo_Rua"               HorizontalAlignment="Left"    Margin="142,466,0,0"       VerticalAlignment="Top"      Text="Rua:"                   FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Novo_CEP"               HorizontalAlignment="Left"    Margin="142,419,0,0"       VerticalAlignment="Top"      Text="CEP:"                   FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Novo_Complemento"       HorizontalAlignment="Left"    Margin="59,510,0,0"        VerticalAlignment="Top"      Text="Complemento:"           FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Novo_Numero"            HorizontalAlignment="Left"    Margin="934,466,0,0"       VerticalAlignment="Top"      Text="Número:"                FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Novo_Estado"            HorizontalAlignment="Left"    Margin="636,556,0,0"       VerticalAlignment="Top"      Text="Estado:"                FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Novo_Cidade"            HorizontalAlignment="Left"    Margin="117,556,0,0"       VerticalAlignment="Top"      Text="Cidade:"                FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Novo_Bairro"            HorizontalAlignment="Left"    Margin="642,510,0,0"       VerticalAlignment="Top"      Text="Bairro:"                FontSize="18"           TextWrapping="Wrap"        />
+                        
+                        <TextBox        x:Name="txt_Novo_Nome"              HorizontalAlignment="Left"    Margin="188,87,0,0"        VerticalAlignment="Top"      Width="815"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="50"      />
+                        <Grid>
+                        <RadioButton    x:Name="rdb_Novo_Masculino"         HorizontalAlignment="Left"    Margin="1012,87,0,0"       VerticalAlignment="Top"      Content="Masculino"           FontSize="18"                                                       />
+                        <RadioButton    x:Name="rdb_Novo_Feminino"          HorizontalAlignment="Left"    Margin="1144,87,0,0"       VerticalAlignment="Top"      Content="Feminino"            FontSize="18"                                                       />
+                        </Grid>
+                        <TextBox        x:Name="txt_Novo_RG"                HorizontalAlignment="Left"    Margin="188,132,0,0"       VerticalAlignment="Top"      Width="315"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="11"      />
+                        <TextBox        x:Name="txt_Novo_CPF"               HorizontalAlignment="Left"    Margin="624,132,0,0"       VerticalAlignment="Top"      Width="282"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="13"      />
+                        <TextBox        x:Name="txt_Novo_Nascimento"        HorizontalAlignment="Left"    Margin="1047,132,0,0"      VerticalAlignment="Top"      Width="201"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="8"      />
+                        <TextBox        x:Name="txt_Novo_CarteiraTrabalho"  HorizontalAlignment="Left"    Margin="188,176,0,0"       VerticalAlignment="Top"      Width="315"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="8"      />
+                        <TextBox        x:Name="txt_Novo_NSerie"            HorizontalAlignment="Left"    Margin="624,176,0,0"       VerticalAlignment="Top"      Width="282"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="8"      />
+                        <TextBox        x:Name="txt_Novo_NReservista"       HorizontalAlignment="Left"    Margin="1047,176,0,0"      VerticalAlignment="Top"      Width="201"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="10"      />
+                        <Grid>
+                        <RadioButton    x:Name="rdb_Novo_FilhosSim"         HorizontalAlignment="Left"    Margin="304,221,0,0"       VerticalAlignment="Top"      Content="Sim"                 FontSize="17" Checked="rdb_Novo_FilhosSim_Checked"                                                       />
+                        <RadioButton    x:Name="rdb_Novo_FilhosNao"         HorizontalAlignment="Left"    Margin="378,222,0,0"       VerticalAlignment="Top"      Content="Não"                 FontSize="17" Checked="rdb_Novo_FilhosNao_Checked"                                                       />
+                        </Grid>
+                        <TextBox        x:Name="txt_Novo_QuantidadeFilhos"  HorizontalAlignment="Left"    Margin="624,221,0,0"       VerticalAlignment="Top"      Width="117"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="13"      />
+                        <TextBox        x:Name="txt_Novo_NomeMae"           HorizontalAlignment="Left"    Margin="188,266,0,0"       VerticalAlignment="Top"      Width="1060"                  FontSize="16"           TextWrapping="Wrap"     MaxLength="50"      />
+                        <TextBox        x:Name="txt_Novo_NomePai"           HorizontalAlignment="Left"    Margin="188,311,0,0"       VerticalAlignment="Top"      Width="1060"                  FontSize="16"           TextWrapping="Wrap"     MaxLength="50"      />
+                        <TextBox        x:Name="txt_Novo_Telefone"          HorizontalAlignment="Left"    Margin="186,356,0,0"       VerticalAlignment="Top"      Width="273"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="12"      />
+                        <TextBox        x:Name="txt_Novo_Celular"           HorizontalAlignment="Left"    Margin="537,356,0,0"       VerticalAlignment="Top"      Width="258"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="12"      />
+                        <TextBox        x:Name="txt_Novo_Email"             HorizontalAlignment="Left"    Margin="886,356,0,0"       VerticalAlignment="Top"      Width="362"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="40"      />
+
+                        <TextBox        x:Name="txt_Novo_CEP"               HorizontalAlignment="Left"    Margin="186,415,0,0"       VerticalAlignment="Top"      Width="210"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="10"      />
+                        <TextBox        x:Name="txt_Novo_Rua"               HorizontalAlignment="Left"    Margin="186,461,0,0"       VerticalAlignment="Top"      Width="720"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="50"      />
+                        <TextBox        x:Name="txt_Novo_Numero"            HorizontalAlignment="Left"    Margin="1012,461,0,0"      VerticalAlignment="Top"      Width="236"                   FontSize="16"           TextWrapping="Wrap"                         />
+                        <TextBox        x:Name="txt_Novo_Complemento"       HorizontalAlignment="Left"    Margin="186,506,0,0"       VerticalAlignment="Top"      Width="382"                   FontSize="16"           TextWrapping="Wrap"                         />
+                        <TextBox        x:Name="txt_Novo_Bairro"            HorizontalAlignment="Left"    Margin="706,506,0,0"       VerticalAlignment="Top"      Width="542"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="40"      />
+                        <TextBox        x:Name="txt_Novo_Cidade"            HorizontalAlignment="Left"    Margin="186,551,0,0"       VerticalAlignment="Top"      Width="382"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="30"      />
+                        <TextBox        x:Name="txt_Novo_Estado"            HorizontalAlignment="Left"    Margin="706,551,0,0"       VerticalAlignment="Top"      Width="200"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="2"       />
+
+
+                        <Button         x:Name="btn_NovoSalvar"             HorizontalAlignment="Left"    Margin="1058,577,0,-64"    VerticalAlignment="Stretch"  Content="Salvar"              Width="190"             Click="btn_NovoSalvarClick"     />
+                        <TextBlock      x:Name="lbl_Novo_Nascimento"        HorizontalAlignment="Left"    Margin="934,137,0,0"       VerticalAlignment="Top"      Text="Nascimento:"            FontSize="18"           TextWrapping="Wrap"             />
+                        <TextBlock      x:Name="lbl_Novo_NSerie"            HorizontalAlignment="Left"    Margin="521,181,0,0"       VerticalAlignment="Top"      Text="Nº de Série:"           FontSize="18"           TextWrapping="Wrap"             />
+                        <TextBlock      x:Name="lbl_Novo_CarteiraTrabalho"  HorizontalAlignment="Left"    Margin="12,181,0,0"        VerticalAlignment="Top"      Text="Carteira de Trabalho:"  FontSize="18"           TextWrapping="Wrap"             />
+                        <TextBlock      x:Name="lbl_Novo_NomeMae"           HorizontalAlignment="Left"    Margin="59,273,0,0"        VerticalAlignment="Top"      Text="Nome da mãe:"           FontSize="18"           TextWrapping="Wrap"             />
+                        <TextBlock      x:Name="lbl_Novo_NomePai"           HorizontalAlignment="Left"    Margin="68,318,0,0"        VerticalAlignment="Top"      Text="Nome do pai:"           FontSize="18"           TextWrapping="Wrap"     RenderTransformOrigin="-2.75,-1.091"     />
+                        <TextBlock      x:Name="lbl_Novo_PossuiFilhos"      HorizontalAlignment="Left"    Margin="188,227,0,0"       VerticalAlignment="Top"      Text="Possui filhos?"         FontSize="18"           TextWrapping="Wrap"             />
+                        <TextBlock      x:Name="lbl_Novo_NReservista"       HorizontalAlignment="Left"    Margin="949,181,0,0"       VerticalAlignment="Top"      Text="Reservista:"            FontSize="18"           TextWrapping="Wrap"             />                        
+                        <TextBlock      x:Name="lbl_Novo_QuantidadeFilhos"  HorizontalAlignment="Left"    Margin="518,227,0,0"       VerticalAlignment="Top"      FontSize="18"                 TextWrapping="Wrap"     Height="20"                     />
+                        <TextBlock      x:Name="lbl_Novo_Quantidade"            HorizontalAlignment="Left"    Margin="518,227,0,0"       VerticalAlignment="Top"      Text="Quantidade:"           FontSize="18"           TextWrapping="Wrap"             />
+
+                    </Grid>
+                </Grid>
+                <!--=========================================================-->
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

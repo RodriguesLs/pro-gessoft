@@ -1,0 +1,132 @@
+﻿<Page
+    x:Class="Gessoft.Pages.Agenda.AgendaGesseiro"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Gessoft.Pages.Agenda"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid Margin="-10,0,10,0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="195*"/>
+                <ColumnDefinition Width="488*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40*" />
+            </Grid.RowDefinitions>
+
+
+
+            <Grid Grid.Row="0" Grid.Column="0" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35*" />
+                    <RowDefinition Height="221*" />
+
+                </Grid.RowDefinitions>
+
+                <!--  Menu vertical -->
+                <Grid Grid.Row="0"  >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="19*"/>
+                        <ColumnDefinition Width="56*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Stretch"  x:Name="backButton" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}" Height="Auto" Margin="39,58,0,0" Width="50" Click="backButton_Click"/>
+                    <TextBlock Grid.Column="1"  FontSize="55" Margin="25,40,20,-38" FontFamily="Segoe UI" >
+                    	<Run Text="Relat"/>
+                    	<Run Text="ó"/>
+                    	<Run Text="rios"/>
+                    </TextBlock>
+                </Grid>
+                <!--Bloco de buscasa-->
+                <!--Bloco de buscasa-->
+                <!--Resultado da busca-->
+            </Grid>
+            <!--  Menu vertical -->
+            <FlipView x:Name="_flipVw" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Height="106" Margin="552,-265,417,927" Width="7" RenderTransformOrigin="0.5,0.5">
+                <FlipView.RenderTransform>
+                    <CompositeTransform ScaleY="-1"/>
+                </FlipView.RenderTransform>
+                <FlipView.Transitions>
+                    <TransitionCollection>
+                        <EdgeUIThemeTransition/>
+                    </TransitionCollection>
+                </FlipView.Transitions>
+
+                <!--=========== Pesquisa de cadastro Tag0 ========================-->
+                <!--=========================================================-->
+
+
+
+
+
+
+            </FlipView>
+            <Grid HorizontalAlignment="Left" Height="591" Margin="10,167,0,0" VerticalAlignment="Top" Width="380" Background="White">
+                <GridView  x:Name="lstAgendaServico" HorizontalAlignment="Left" Height="444" Margin="6,140,0,0" VerticalAlignment="Top" Width="367" Background="White" Foreground="#FF080101" BorderBrush="#FF101111" BorderThickness="0" RenderTransformOrigin="-0.114,0.615"/>
+                <Button x:Name="btnOrcamento" Content="Orçamentos" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Background="Black" Height="71" BorderBrush="#FF444444" FontSize="16" Margin="1,0,189,456" Click="btnPorOrcamento_Click"/>
+                <Button x:Name="btnServico" Content="Serviços" HorizontalAlignment="Stretch" VerticalAlignment="Top" Background="Black" Height="71" BorderBrush="#FF444444" FontSize="16" Margin="189,64,1,0" Click="btnPorServico_Click"/>
+                <TextBox x:Name="txtIntenPesquisa" HorizontalAlignment="Left" Margin="6,7,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="52" Width="367" BorderBrush="Black"/>
+            </Grid>
+            <FlipView Grid.Column="1" HorizontalAlignment="Left" Height="591" Margin="10,167,0,0" VerticalAlignment="Top" Width="966" Background="#FF007ACC" Foreground="#FFB82F2F">
+
+
+                <FlipViewItem Grid.Column="1" HorizontalAlignment="Left" Height="598" VerticalAlignment="Top" Width="966">
+                    <Grid>
+                        <TextBlock x:Name="lbl_ClienteCadastrados_Copy"      HorizontalAlignment="Left"      Margin="39,188,0,0"        TextWrapping="Wrap"          VerticalAlignment="Top" FontSize="33"   Text="Fornecedores:" Foreground="#FFF9F9F9"   />
+                        <TextBlock Style="{StaticResource PageHeaderTextStyle}" HorizontalAlignment="Left" Margin="29,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="80" FontFamily="Calibri Light" UseLayoutRounding="False" Foreground="#FFF9F9F9" >
+            		<Run Text="Total "/>
+            		<Run Text="De "/>
+            		<Run Text="Cadastros"/>
+            		<LineBreak/>
+            		<Run/>
+                        </TextBlock>
+                        <TextBlock x:Name="txt_FornecedoresCadastrados"      HorizontalAlignment="Left"      Margin="252,186,0,0"        TextWrapping="Wrap"          VerticalAlignment="Top" FontSize="37"   Text="Null" RenderTransformOrigin="0.552,0.443" Foreground="#FFF9F9F9"   />
+                        <TextBlock x:Name="lbl_ClienteCadastrados_Copy4"      HorizontalAlignment="Left"      Margin="600,188,0,0"        TextWrapping="Wrap"          VerticalAlignment="Top" FontSize="33"   Text="Funcionários:" Foreground="#FFF9F9F9"   />
+                        <TextBlock x:Name="txt_FuncionariosCadastrados1"      HorizontalAlignment="Left"      Margin="796,186,0,0"        TextWrapping="Wrap"          VerticalAlignment="Top" FontSize="37"   Text="Null" RenderTransformOrigin="2.075,0.455" Foreground="#FFEEE7E7"   />
+                        <TextBlock x:Name="lbl_ClienteCadastrados_Copy1"      HorizontalAlignment="Left"      Margin="37,253,0,0"        TextWrapping="Wrap"          VerticalAlignment="Top" FontSize="33" Foreground="#FFF9F9F9"   >
+            		<Run Text="Orçamentos:"/>
+            		<LineBreak/>
+            		<Run/>
+                        </TextBlock>
+                        <TextBlock x:Name="txt_OrcamentosCadastrados1"      HorizontalAlignment="Left"      Margin="238,253,0,0"        TextWrapping="Wrap"          VerticalAlignment="Top" FontSize="37"   Text="Null" RenderTransformOrigin="0.552,0.443" Foreground="#FFF9F9F9"   />
+                        <TextBlock x:Name="lbl_ClienteCadastrados_Copy3"      HorizontalAlignment="Left"      Margin="358,188,0,0"        TextWrapping="Wrap"          VerticalAlignment="Top" FontSize="33"   Text="Clientes:" Foreground="#FFF9F9F9"   />
+                        <TextBlock x:Name="txt_ClienteCadastrados"      HorizontalAlignment="Left"      Margin="489,186,0,0"        TextWrapping="Wrap"          VerticalAlignment="Top" FontSize="37"   Text="Null" RenderTransformOrigin="0.552,0.443" Foreground="#FFF9F9F9"   />
+                        <TextBlock x:Name="lbl_ClienteCadastrados_Copy5"      HorizontalAlignment="Left"      Margin="353,253,0,0"        TextWrapping="Wrap"          VerticalAlignment="Top" FontSize="33"   Text="Serviços:" Foreground="#FFF9F9F9"   />
+                        <TextBlock x:Name="txt_ServicosCadastrados1"      HorizontalAlignment="Left"      Margin="489,253,0,0"        TextWrapping="Wrap"          VerticalAlignment="Top" FontSize="37"   Text="Null" RenderTransformOrigin="0.552,0.443" Foreground="#FFF9F9F9"   />
+                        <TextBlock x:Name="lbl_ClienteCadastrados_Copy2"      HorizontalAlignment="Left"      Margin="37,379,0,0"        TextWrapping="Wrap"          VerticalAlignment="Top" FontSize="33"   Text="Orçamento Com Serviço:" Width="381" Foreground="#FFF9F9F9"   />
+                        <TextBlock x:Name="txt_ServicosCadastrados1_Copy"      HorizontalAlignment="Left"      Margin="413,379,0,0"        TextWrapping="Wrap"          VerticalAlignment="Top" FontSize="37"   Text="Null" RenderTransformOrigin="0.552,0.443" Foreground="#FFF9F9F9"   />
+                        <TextBlock x:Name="lbl_ClienteCadastrados_Copy6"      HorizontalAlignment="Left"      Margin="37,322,0,0"        TextWrapping="Wrap"          VerticalAlignment="Top" FontSize="33" Width="381" Foreground="#FFF9F9F9"   >
+            		<Run Text="Orçamento "/>
+            		<Run Text="Sem"/>
+            		<Run Text=" Serviço:"/>
+                        </TextBlock>
+                        <TextBlock x:Name="txt_ServicosCadastrados1_Copy1"      HorizontalAlignment="Left"      Margin="413,318,0,0"        TextWrapping="Wrap"          VerticalAlignment="Top" FontSize="37"   Text="Null" RenderTransformOrigin="0.552,0.443" Foreground="#FFF9F9F9"   />
+                    </Grid>
+                </FlipViewItem>
+
+                <FlipViewItem Background="#FFF1F2F7" Grid.Column="1" Margin="12,167,-2,10">
+                    <Grid>
+                        <TextBox BorderThickness="1" x:Name="txt_Descricao_Servico"        HorizontalAlignment="Left"      Margin="181,135,0,0"     TextWrapping="Wrap"         Height="421"                VerticalAlignment="Top" Width="715" BorderBrush="#FF1D1D1D"/>
+                        <TextBox IsEnabled="False" BorderThickness="1" x:Name="txt_NumeroOrcamentoPa"        HorizontalAlignment="Left"      Margin="235,80,0,0"        TextWrapping="Wrap"         Width="217"                 VerticalAlignment="Top" BorderBrush="#FF1D1D1D"                 />
+                        <TextBox IsEnabled="False" x:Name="txt_Ano" BorderThickness="1" HorizontalAlignment="Left" Margin="709,81,0,0" VerticalAlignment="Top" Width="91" BorderBrush="#FF1D1D1D"/>
+                        <TextBox IsEnabled="False" x:Name="txt_Mes" BorderThickness="1" HorizontalAlignment="Left" Margin="614,81,0,0" VerticalAlignment="Top" Width="80" BorderBrush="#FF1D1D1D"/>
+                        <TextBox IsEnabled="False" x:Name="txt_Dia" BorderThickness="1" HorizontalAlignment="Left" Margin="521,81,0,0" VerticalAlignment="Top" Width="77" BorderBrush="#FF1D1D1D"/>
+
+
+                        <TextBlock x:Name="lbl_Cliente_ID_Copy"      HorizontalAlignment="Left"      Margin="363,84,0,0"        TextWrapping="Wrap"         Text="Data de Agendamento:"          VerticalAlignment="Top" FontSize="22" Foreground="#FF1D1D1D" Width="240" RenderTransformOrigin="0.585,-1"   />
+                        <TextBlock HorizontalAlignment="Left" Margin="777,81,0,0" TextWrapping="Wrap" Text="/" VerticalAlignment="Top" Foreground="#FF1D1D1D" Height="32" Width="23" FontSize="25"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="593,81,0,0" TextWrapping="Wrap" Text="/" VerticalAlignment="Top" Foreground="#FF1D1D1D" Height="32" Width="23" FontSize="25" RenderTransformOrigin="-0.304,0.531"/>
+                        <Border x:Name="txtAnoAgend" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" Margin="793,81,0,0" VerticalAlignment="Top" Width="91"/>
+                        <Border x:Name="txtMesAgend" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" Margin="692,81,0,0" VerticalAlignment="Top" Width="80"/>
+                        <Border  BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="32" Margin="597,81,0,0" VerticalAlignment="Top" Width="75"/>
+
+
+                    </Grid>
+                </FlipViewItem>
+
+            </FlipView>
+        </Grid>
+    </Grid>
+</Page>

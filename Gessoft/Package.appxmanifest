@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="ad75541e-32c9-43d3-9d4f-79a30b7ff04d" Publisher="CN=Ayrton Felipe" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Gessoft</DisplayName>
+    <PublisherDisplayName>Ayrton Felipe</PublisherDisplayName>
+    <Logo>logo 50x50.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Gessoft.App">
+      <VisualElements DisplayName="Gessoft" Logo="Assets\logo 150x150.png" SmallLogo="Assets\logo 30x30.png" Description="Gessoft" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Splash screen.png" BackgroundColor="dodgerBlue" />
+        <InitialRotationPreference>
+          <Rotation Preference="portrait" />
+          <Rotation Preference="landscape" />
+          <Rotation Preference="portraitFlipped" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

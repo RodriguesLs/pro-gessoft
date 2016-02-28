@@ -1,0 +1,186 @@
+﻿<Page
+    x:Class="Gessoft.Pages.Servicos.NovoOrcamento"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Gessoft.Pages.Servicos"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="290*"/>
+            <ColumnDefinition Width="393*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.ColumnSpan="2" >
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="6*" />
+                <RowDefinition Height="40*" />
+
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="155*" />
+                    <ColumnDefinition Width="365*" />
+                    <ColumnDefinition Width="160*" />
+                    <ColumnDefinition Width="190*" />
+                    <ColumnDefinition Width="190*" />
+                    <ColumnDefinition Width="306*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center"  x:Name="Btn_Home"  IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}" Height="51" Margin="36,28,0,21" Width="49" Click="Btn_Home_Click"/>
+                <TextBlock Grid.Column="1" FontSize="69" Text="Serviços" Margin="0,2,8,0" FontFamily="Segoe UI" Grid.ColumnSpan="2" />
+
+                <Button x:Name="Btn_Novo_Orcamento" Grid.Column="2" Content="Novo Orçamento"      Tag="0" Margin="0,0,0,16"  BorderThickness="0" FontFamily="Segoe UI"  VerticalAlignment="Bottom" Height="34" Width="150" Click="Btn_Novo_Orcamento_Click"   />
+                <Button x:Name="Btn_Consultar_Orcamento" Grid.Column="3" Content="Consultar Orçamento"   Tag="1" Margin="0,0,0,16"  BorderThickness="0" FontFamily="Segoe UI"  VerticalAlignment="Bottom" Height="34" Width="180" Click="Btn_Consultar_Orcamento_Click"   />
+                <Button x:Name="Btn_Novo_Servico" Grid.Column="4" Content="Novo Serviço"       Tag="2" Margin="0,0,0,16"  BorderThickness="0" FontFamily="Segoe UI"  VerticalAlignment="Bottom" Height="34" Width="166" Click="Btn_Novo_Servico_Click"   />
+                <Button x:Name="Btn_Consultar_Servico" Grid.Column="5" Content="Consultar Serviço"     Tag="3" Margin="0,0,0,16"  BorderThickness="0" FontFamily="Segoe UI"  VerticalAlignment="Bottom" Height="34" Width="167" Click="Btn_Consultar_Servico_Click"   />
+
+            </Grid>
+
+            <Grid x:Name="Grid_Agendar_Orçamento" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" >
+                <Grid.Transitions>
+                    <TransitionCollection>
+                        <EdgeUIThemeTransition/>
+                    </TransitionCollection>
+                </Grid.Transitions>
+
+                <Grid Background="#FF1D1D1D" Margin="0,10,0,-10" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="581*" />
+
+                        <ColumnDefinition Width="785*" />
+                    </Grid.ColumnDefinitions>
+              
+                    <Grid Background="#FFF1F2F7" Grid.Column="1" Margin="0,10,10,18">
+                        <Button x:Name="btn_Agendar_Orcamento"         HorizontalAlignment="Left"      Margin="546,542,0,0"    Content="Agendar Orçamento"   Height="79"                 VerticalAlignment="Top" Width="198" Click="btn_Agendar_Orcamento_Click" Background="#FF1D1D1D"  />
+                        <TextBlock x:Name="lbl_Numero_Solicitacao" Text="Orçamento Nº:" HorizontalAlignment="Left" Margin="29,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22" Foreground="#FF1D1D1D"                          />
+                        <TextBox BorderThickness="1" x:Name="txt_Descricao_Servico"        HorizontalAlignment="Left"      Margin="29,125,0,0"     TextWrapping="Wrap"         Height="389"                VerticalAlignment="Top" Width="715" BorderBrush="#FF1D1D1D"/>
+                        <TextBox IsEnabled="False" x:Name="txt_NumeroOrcamento"        HorizontalAlignment="Left"      Margin="181,81,0,0"        TextWrapping="Wrap"         Width="217"                 VerticalAlignment="Top" BorderBrush="#FF1D1D1D" Background="White"                 />
+                        <ComboBox x:Name="cmbAno" BorderThickness="1" HorizontalAlignment="Left" Margin="663,81,0,0" VerticalAlignment="Top" Width="81" BorderBrush="#FF1D1D1D">
+                            <TextBlock Text="2013"/>
+                            <TextBlock Text="2014"/>
+                            <TextBlock Text="2015"/>
+                            <TextBlock Text="2016"/>
+                        </ComboBox>
+                        <ComboBox x:Name="cmbMes" BorderThickness="1" HorizontalAlignment="Left" Margin="538,81,0,0" VerticalAlignment="Top" Width="120" BorderBrush="#FF1D1D1D">
+                            <TextBlock Text="Janeiro"/>
+                            <TextBlock Text="Fevereiro"/>
+                            <TextBlock Text="Março"/>
+                            <TextBlock Text="Abril"/>
+                            <TextBlock Text="Maio"/>
+                            <TextBlock Text="Junho"/>
+                            <TextBlock Text="Julho"/>
+                            <TextBlock Text="Agosto"/>
+                            <TextBlock Text="Setembro"/>
+                            <TextBlock Text="Outubro"/>
+                            <TextBlock Text="Novembro"/>
+                            <TextBlock Text="Dezembro"/>
+                        </ComboBox>
+                        <ComboBox BorderThickness="1" x:Name="cmbDia" HorizontalAlignment="Left" Margin="465,81,0,0" VerticalAlignment="Top" Width="68" BorderBrush="#FF1D1D1D">
+                            <TextBlock Text="01"/>
+                            <TextBlock Text="02"/>
+                            <TextBlock Text="03"/>
+                            <TextBlock Text="04"/>
+                            <TextBlock Text="05"/>
+                            <TextBlock Text="06"/>
+                            <TextBlock Text="07"/>
+                            <TextBlock Text="08"/>
+                            <TextBlock Text="09"/>
+                            <TextBlock Text="10"/>
+                            <TextBlock Text="11"/>
+                            <TextBlock Text="12"/>
+                            <TextBlock Text="13"/>
+                            <TextBlock Text="14"/>
+                            <TextBlock Text="15"/>
+                            <TextBlock Text="16"/>
+                            <TextBlock Text="17"/>
+                            <TextBlock Text="18"/>
+                            <TextBlock Text="19"/>
+                            <TextBlock Text="20"/>
+                            <TextBlock Text="21"/>
+                            <TextBlock Text="22"/>
+                            <TextBlock Text="23"/>
+                            <TextBlock Text="24"/>
+                            <TextBlock Text="25"/>
+                            <TextBlock Text="26"/>
+                            <TextBlock Text="27"/>
+                            <TextBlock Text="28"/>
+                            <TextBlock Text="29"/>
+                            <TextBlock Text="30"/>
+                            <TextBlock Text="31"/>
+                        </ComboBox>
+                        <TextBlock x:Name="lbl_Cliente_ID_Copy"      HorizontalAlignment="Left"      Margin="408,86,0,0"        TextWrapping="Wrap"         Text="Data:"          VerticalAlignment="Top" FontSize="22" Foreground="#FF1D1D1D" Width="65"   />
+                        <Button x:Name="brn_LimparCampos" Content="Limpar Campos" HorizontalAlignment="Left" Height="79" Margin="348,542,0,0" VerticalAlignment="Top" Width="198" Click="brn_Limpar_Campos_Click" Background="#FF1D1D1D" />
+                        <Border BorderBrush="#FF1D1D1D" BorderThickness="1" HorizontalAlignment="Left" Height="31" Margin="182,81,0,0" VerticalAlignment="Top" Width="216"/>
+
+
+
+                    </Grid>
+                        
+                <Grid>
+
+
+                        <Grid Background="#FF007ACC" Margin="10,10,8,18">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="Novo Orçamento" Style="{StaticResource PageHeaderTextStyle}" Margin="16,0,25,344" Height="56" Foreground="#FFF9F9F9"/>
+
+                            <TextBox x:Name="txt_Cliente_ID"        HorizontalAlignment="Left"      Margin="173,125,0,0"        TextWrapping="Wrap"         Width="247"                 VerticalAlignment="Top" />
+                            <Button x:Name="btn_Validar"         HorizontalAlignment="Left"      Margin="427,122,0,0"       Content="Validar"           Height="38"                 VerticalAlignment="Top" Width="119" RenderTransformOrigin="-0.625,0.426" Click="btn_Validar_Click"      />
+                            <TextBlock x:Name="lbl_Cliente_ID"      HorizontalAlignment="Left"      Margin="65,125,0,0"        TextWrapping="Wrap"         Text="Cliente ID:"          VerticalAlignment="Top" FontSize="22"   />
+                            <TextBlock x:Name="lbl_NomeCliente" Text="Nome:" HorizontalAlignment="Left" Margin="99,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22"                          />
+                        <TextBox x:Name="txt_NomeCliente"        HorizontalAlignment="Left"      Margin="173,179,0,0"        TextWrapping="Wrap"         Width="371"                 VerticalAlignment="Top"                 />
+                            <TextBlock x:Name="lbl_Numero_Solicitacao_Copy1" Text="Ambiente:" HorizontalAlignment="Left" Margin="65,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22"                          />
+                            <Button x:Name="btn_Adicionar"         HorizontalAlignment="Left"      Margin="440,234,0,0"       Content="Adicionar"           Height="91"                 VerticalAlignment="Top" Width="104" Click="btn_Adicionar_Click"      />
+                        <TextBlock x:Name="lbl_Numero_Solicitacao_Copy2" Text="Material:" HorizontalAlignment="Left" Margin="80,347,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22"                          />
+                            <TextBlock x:Name="lbl_Numero_Solicitacao_Copy3" Text="Medida:" HorizontalAlignment="Left" Margin="86,404,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22"                          />
+                        <TextBox x:Name="txt_Medida"        HorizontalAlignment="Left"      Margin="173,399,0,0"        TextWrapping="Wrap"         Width="371"                 VerticalAlignment="Top"                 />
+                        <TextBlock x:Name="lbl_Numero_Solicitacao_Copy" Text="Tipo de Serviço:" HorizontalAlignment="Left" Margin="9,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22"                          />
+                            <ComboBox x:Name="cmb_TipoDeServico" HorizontalAlignment="Left" Height="32" Margin="173,237,0,0" VerticalAlignment="Top" Width="262">
+                                <TextBlock Text="Sanca"/>
+                                <TextBlock Text="Sanca Invertida"/>
+                                <TextBlock Text="Forro"/>
+                                <TextBlock Text="Moldura"/>
+                                <TextBlock Text="DryWall"/>
+                            </ComboBox>
+                            <ComboBox x:Name="cmb_Ambiente" HorizontalAlignment="Left" Height="32" Margin="173,289,0,0" VerticalAlignment="Top" Width="262">
+                                <TextBlock Text="Quarto"/>
+                                <TextBlock Text="Sala"/>
+                                <TextBlock Text="Cozinha"/>
+                                <TextBlock Text="Banheiro"/>
+                                <TextBlock Text="Copa"/>
+                                <TextBlock Text="Corredor"/>
+                            </ComboBox>
+                            <ComboBox x:Name="cmb_Material" HorizontalAlignment="Left" Height="32" Margin="173,345,0,0" VerticalAlignment="Top" Width="371">
+                                <TextBlock Text="Gesso"/>
+                                <TextBlock Text="Placa de Gesso"/>
+                                <TextBlock Text="Moldura"/>
+                                <TextBlock Text="Arame"/>
+                                <TextBlock Text="Sizal"/>
+                                <TextBlock Text="Pino de Fixação"/>
+                            </ComboBox>
+                        </Grid>
+                    </Grid>
+
+
+                </Grid>
+           
+
+
+            </Grid>
+
+
+
+
+        </Grid>
+
+    </Grid>
+</Page>

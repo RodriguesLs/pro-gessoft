@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PC-VEGAS</Machine>
+    <WindowsUser>Ayrton Felipe</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Gessoft.exe">
+      <PackagePath>Gessoft.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Gessoft.pdb">
+      <PackagePath>Gessoft.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MySQL\MySQL Connector Net 6.7.4\Assemblies\RT\MySql.Data.RT.dll">
+      <PackagePath>MySql.Data.RT.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\Agenda-Gessoft.png">
+      <PackagePath>Assets\Agenda-Gessoft.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\Cliente-Gessoft.png">
+      <PackagePath>Assets\Cliente-Gessoft.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\FotoBuky.png">
+      <PackagePath>Assets\FotoBuky.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\Funcionario-Gessoft.png">
+      <PackagePath>Assets\Funcionario-Gessoft.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\Gessoft-Fornecedor.png">
+      <PackagePath>Assets\Gessoft-Fornecedor.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\Gessoft-Servicos.png">
+      <PackagePath>Assets\Gessoft-Servicos.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\logo 150x150.png">
+      <PackagePath>Assets\logo 150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\logo 24x24.png">
+      <PackagePath>Assets\logo 24x24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\logo 30x30.png">
+      <PackagePath>Assets\logo 30x30.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\logo 50x50.png">
+      <PackagePath>Assets\logo 50x50.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\Logout.png">
+      <PackagePath>Assets\Logout.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\Relatorios.png">
+      <PackagePath>Assets\Relatorios.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\Servicos-Gessoft.png">
+      <PackagePath>Assets\Servicos-Gessoft.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\Splash screen.png">
+      <PackagePath>Assets\Splash screen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Assets\wide logo 310x150.png">
+      <PackagePath>Assets\wide logo 310x150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Splash screen.png">
+      <PackagePath>Splash screen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\wide logo 310x150.png">
+      <PackagePath>wide logo 310x150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Agenda\AgendaGesseiro.xaml">
+      <PackagePath>Pages\Agenda\AgendaGesseiro.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Agenda\AgendaOrcamento.xaml">
+      <PackagePath>Pages\Agenda\AgendaOrcamento.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Agenda\AgendaServico.xaml">
+      <PackagePath>Pages\Agenda\AgendaServico.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Cliente\AlterarCliente.xaml">
+      <PackagePath>Pages\Cliente\AlterarCliente.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Cliente\ConsultarCliente.xaml">
+      <PackagePath>Pages\Cliente\ConsultarCliente.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Cliente\HistoricoCliente.xaml">
+      <PackagePath>Pages\Cliente\HistoricoCliente.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Cliente\NovoCliente.xaml">
+      <PackagePath>Pages\Cliente\NovoCliente.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Fornecedor\AlterarFornecedor.xaml">
+      <PackagePath>Pages\Fornecedor\AlterarFornecedor.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Fornecedor\ConsultarFornecedor.xaml">
+      <PackagePath>Pages\Fornecedor\ConsultarFornecedor.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Fornecedor\NovoFornecedor.xaml">
+      <PackagePath>Pages\Fornecedor\NovoFornecedor.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Funcionario\AlterarFuncionario.xaml">
+      <PackagePath>Pages\Funcionario\AlterarFuncionario.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Funcionario\ConsultarFuncionario.xaml">
+      <PackagePath>Pages\Funcionario\ConsultarFuncionario.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Funcionario\NovoFuncionario.xaml">
+      <PackagePath>Pages\Funcionario\NovoFuncionario.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Home\PrincipalHome.xaml">
+      <PackagePath>Pages\Home\PrincipalHome.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Login\FrmLogin.xaml">
+      <PackagePath>Pages\Login\FrmLogin.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Relatorios\FrmRelatorios.xaml">
+      <PackagePath>Pages\Relatorios\FrmRelatorios.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Servicos\ConsultarOrcamento.xaml">
+      <PackagePath>Pages\Servicos\ConsultarOrcamento.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Servicos\ConsultarServico.xaml">
+      <PackagePath>Pages\Servicos\ConsultarServico.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Servicos\NovoOrcamento.xaml">
+      <PackagePath>Pages\Servicos\NovoOrcamento.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Pages\Servicos\NovoServico.xaml">
+      <PackagePath>Pages\Servicos\NovoServico.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

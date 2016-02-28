@@ -1,0 +1,124 @@
+﻿<Page
+    x:Class="Gessoft.Pages.Funcionario.AlterarFuncionario"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Gessoft.Pages.Funcionario"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid >
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="6*" />
+                <RowDefinition Height="40*" />
+
+            </Grid.RowDefinitions>
+
+
+
+            <Grid Grid.Row="0" Background="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10*" />
+                    <ColumnDefinition Width="120*"/>
+                    <ColumnDefinition Width="0*"/>
+                    <ColumnDefinition Width="373*" />
+                    <ColumnDefinition Width="127*" />
+                    <ColumnDefinition Width="110*" />
+                    <ColumnDefinition Width="140*" />
+                    <ColumnDefinition Width="170*" />
+                    <ColumnDefinition Width="316*" />
+                </Grid.ColumnDefinitions>
+                <Button x:ConnectionId='2' Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center"  x:Name="btn_VoltarHome"  IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}" Height="51" Margin="36,28,0,21" Width="49"                             />
+
+                <TextBlock Grid.Column="2" FontSize="64" Text="Funcionário" Margin="0,2,8,0" FontFamily="Segoe UI" Grid.ColumnSpan="2" />
+
+                <Button x:ConnectionId='3' Grid.Column="3" Content="Consultar" x:Name="btn_ConsultarFuncionario"           Tag="0" BorderThickness="0" FontFamily="Segoe UI" VerticalAlignment="Top"       Margin="365,50,0,0" Height="34" Width="94"                                             Grid.ColumnSpan="2" />
+                <Button x:ConnectionId='4' Grid.Column="5" Content="Novo"      x:Name="btn_NovoFuncionario"                Tag="1" BorderThickness="0" FontFamily="Segoe UI" VerticalAlignment="Bottom"    Margin="0,0,0,16" Height="34" Width="67"                                          />
+                <Button x:ConnectionId='5' Grid.Column="6" Content="Alterar"   x:Name="btn_AlterarFuncionario"             Tag="2" BorderThickness="0" FontFamily="Segoe UI" VerticalAlignment="Bottom"    Margin="0,0,0,16" Height="34" Width="89"                                             />
+
+            </Grid>
+
+            <Grid x:Name="_flipVw"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" ManipulationMode="All">
+                <Grid.Transitions>
+                    <TransitionCollection>
+                        <!--<EdgeUIThemeTransition/> Caindo -->
+                        <PaneThemeTransition/>
+                        <!--Vindo de lado de um jeito muito foda -->
+                        <!--<EntranceThemeTransition/> Vindo de Lado-->
+
+                    </TransitionCollection>
+                </Grid.Transitions>
+
+                <!--==================== Novo Cadastro ==================-->
+                <Grid Background="#FF007ACC" >
+                    <Grid  Width="Auto" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+
+                        <TextBlock      x:Name="lbl_Titulo_Alterar_Cadastro"  Text="Alterar cadastro"          Margin="34,0,720,521" FontSize="65"  Style="{StaticResource PageHeaderTextStyle}" />
+
+                        <TextBlock      x:Name="lbl_Alterar_Nome"              HorizontalAlignment="Left"    Margin="123,93,0,0"        VerticalAlignment="Top"      Text="Nome:"                  FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Alterar_RG"                HorizontalAlignment="Left"    Margin="149,137,0,0"       VerticalAlignment="Top"      Text="RG:"                    FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Alterar_CPF"               HorizontalAlignment="Left"    Margin="581,137,0,0"       VerticalAlignment="Top"      Text="CPF:"                   FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Alterar_Telefone"          HorizontalAlignment="Left"    Margin="106,362,0,0"       VerticalAlignment="Top"      Text="Telefone:"              FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Alterar_Celular"           HorizontalAlignment="Left"    Margin="472,362,0,0"       VerticalAlignment="Top"      Text="Celular:"               FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Alterar_Email"             HorizontalAlignment="Left"    Margin="823,362,0,0"       VerticalAlignment="Top"      Text="E-mail:"                FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Alterar_Rua"               HorizontalAlignment="Left"    Margin="142,466,0,0"       VerticalAlignment="Top"      Text="Rua:"                   FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Alterar_CEP"               HorizontalAlignment="Left"    Margin="142,419,0,0"       VerticalAlignment="Top"      Text="CEP:"                   FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Alterar_Complemento"       HorizontalAlignment="Left"    Margin="59,510,0,0"        VerticalAlignment="Top"      Text="Complemento:"           FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Alterar_Numero"            HorizontalAlignment="Left"    Margin="934,466,0,0"       VerticalAlignment="Top"      Text="Número:"                FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Alterar_Estado"            HorizontalAlignment="Left"    Margin="636,556,0,0"       VerticalAlignment="Top"      Text="Estado:"                FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Alterar_Cidade"            HorizontalAlignment="Left"    Margin="117,556,0,0"       VerticalAlignment="Top"      Text="Cidade:"                FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBlock      x:Name="lbl_Alterar_Bairro"            HorizontalAlignment="Left"    Margin="642,510,0,0"       VerticalAlignment="Top"      Text="Bairro:"                FontSize="18"           TextWrapping="Wrap"        />
+                        <TextBox        x:Name="txt_Alterar_Nome"              HorizontalAlignment="Left"    Margin="188,87,0,0"        VerticalAlignment="Top"      Width="815"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="50"      />
+                        <RadioButton    x:Name="rdb_Alterar_Masculino"         HorizontalAlignment="Left"    Margin="1012,87,0,0"       VerticalAlignment="Top"      Content="Masculino"           FontSize="18"                                                       />
+                        <RadioButton    x:Name="rdb_Alterar_Feminino"          HorizontalAlignment="Left"    Margin="1144,87,0,0"       VerticalAlignment="Top"      Content="Feminino"            FontSize="18"                                                       />
+                        <TextBox        x:Name="txt_Alterar_RG"                HorizontalAlignment="Left"    Margin="188,132,0,0"       VerticalAlignment="Top"      Width="315"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="11"      />
+                        <TextBox        x:Name="txt_Alterar_CPF"               HorizontalAlignment="Left"    Margin="624,132,0,0"       VerticalAlignment="Top"      Width="282"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="13"      />
+                        <TextBox        x:Name="txt_Alterar_Nascimento"        HorizontalAlignment="Left"    Margin="1047,132,0,0"      VerticalAlignment="Top"      Width="201"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="13"      />
+                        <TextBox        x:Name="txt_Alterar_CarteiraTrabalho"  HorizontalAlignment="Left"    Margin="188,176,0,0"       VerticalAlignment="Top"      Width="315"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="13"      />
+                        <TextBox        x:Name="txt_Alterar_NSerie"            HorizontalAlignment="Left"    Margin="624,176,0,0"       VerticalAlignment="Top"      Width="282"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="13"      />
+                        <TextBox        x:Name="txt_Alterar_NReservista"       HorizontalAlignment="Left"    Margin="1047,176,0,0"      VerticalAlignment="Top"      Width="201"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="13"      />
+                        <RadioButton    x:Name="rdb_Alterar_FilhosSim"         HorizontalAlignment="Left"    Margin="304,221,0,0"       VerticalAlignment="Top"      Content="Sim"                 FontSize="17"                                                       />
+                        <RadioButton    x:Name="rdb_Alterar_FilhosNao"         HorizontalAlignment="Left"    Margin="378,222,0,0"       VerticalAlignment="Top"      Content="Não"                 FontSize="17"                                                       />
+                        <TextBox        x:Name="txt_Alterar_QuantidadeFilhos"  HorizontalAlignment="Left"    Margin="624,221,0,0"       VerticalAlignment="Top"      Width="117"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="13"      />
+                        <TextBox        x:Name="txt_Alterar_NomeMae"           HorizontalAlignment="Left"    Margin="188,266,0,0"       VerticalAlignment="Top"      Width="1060"                  FontSize="16"           TextWrapping="Wrap"     MaxLength="13"      />
+                        <TextBox        x:Name="txt_Alterar_NomePai"           HorizontalAlignment="Left"    Margin="188,311,0,0"       VerticalAlignment="Top"      Width="1060"                  FontSize="16"           TextWrapping="Wrap"     MaxLength="13"      />
+                        <TextBox        x:Name="txt_Alterar_Telefone"          HorizontalAlignment="Left"    Margin="186,356,0,0"       VerticalAlignment="Top"      Width="273"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="12"      />
+                        <TextBox        x:Name="txt_Alterar_Celular"           HorizontalAlignment="Left"    Margin="537,356,0,0"       VerticalAlignment="Top"      Width="258"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="12"      />
+                        <TextBox        x:Name="txt_Alterar_Email"             HorizontalAlignment="Left"    Margin="886,356,0,0"       VerticalAlignment="Top"      Width="362"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="40"      />
+                        <TextBox        x:Name="txt_Alterar_CEP"               HorizontalAlignment="Left"    Margin="186,415,0,0"       VerticalAlignment="Top"      Width="210"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="10"      />
+                        <TextBox        x:Name="txt_Alterar_Rua"               HorizontalAlignment="Left"    Margin="186,461,0,0"       VerticalAlignment="Top"      Width="720"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="50"      />
+                        <TextBox        x:Name="txt_Alterar_Numero"            HorizontalAlignment="Left"    Margin="1012,461,0,0"      VerticalAlignment="Top"      Width="236"                   FontSize="16"           TextWrapping="Wrap"                         />
+                        <TextBox        x:Name="txt_Alterar_Complemento"       HorizontalAlignment="Left"    Margin="186,506,0,0"       VerticalAlignment="Top"      Width="382"                   FontSize="16"           TextWrapping="Wrap"                         />
+                        <TextBox        x:Name="txt_Alterar_Bairro"            HorizontalAlignment="Left"    Margin="706,506,0,0"       VerticalAlignment="Top"      Width="542"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="40"      />
+                        <TextBox        x:Name="txt_Alterar_Cidade"            HorizontalAlignment="Left"    Margin="186,551,0,0"       VerticalAlignment="Top"      Width="382"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="30"      />
+                        <TextBox        x:Name="txt_Alterar_Estado"            HorizontalAlignment="Left"    Margin="706,551,0,0"       VerticalAlignment="Top"      Width="200"                   FontSize="16"           TextWrapping="Wrap"     MaxLength="2"       />
+
+
+                        <Button x:ConnectionId='1'         x:Name="btn_Alterar_Salvar"             HorizontalAlignment="Left"    Margin="1118,583,0,-70"    VerticalAlignment="Stretch"  Content="Salvar"              Width="190"                                              />
+                        <TextBlock      x:Name="lbl_Alterar_Nascimento"        HorizontalAlignment="Left"    Margin="934,137,0,0"       VerticalAlignment="Top"      Text="Nascimento:"            FontSize="18"           TextWrapping="Wrap"             />
+                        <TextBlock      x:Name="lbl_Alterar_NSerie"            HorizontalAlignment="Left"    Margin="521,181,0,0"       VerticalAlignment="Top"      Text="Nº de Série:"           FontSize="18"           TextWrapping="Wrap"             />
+                        <TextBlock      x:Name="lbl_Alterar_CarteiraTrabalho"  HorizontalAlignment="Left"    Margin="12,181,0,0"        VerticalAlignment="Top"      Text="Carteira de Trabalho:"  FontSize="18"           TextWrapping="Wrap"             />
+                        <TextBlock      x:Name="lbl_Alterar_NomeMae"           HorizontalAlignment="Left"    Margin="59,273,0,0"        VerticalAlignment="Top"      Text="Nome da mãe:"           FontSize="18"           TextWrapping="Wrap"             />
+                        <TextBlock      x:Name="lbl_Alterar_NomePai"           HorizontalAlignment="Left"    Margin="68,318,0,0"        VerticalAlignment="Top"      Text="Nome do pai:"           FontSize="18"           TextWrapping="Wrap"     RenderTransformOrigin="-2.75,-1.091"     />
+                        <TextBlock      x:Name="lbl_Alterar_PossuiFilhos"      HorizontalAlignment="Left"    Margin="188,227,0,0"       VerticalAlignment="Top"      Text="Possui filhos?"         FontSize="18"           TextWrapping="Wrap"             />
+                        <TextBlock      x:Name="lbl_Alterar_NReservista"       HorizontalAlignment="Left"    Margin="949,181,0,0"       VerticalAlignment="Top"      Text="Reservista:"            FontSize="18"           TextWrapping="Wrap"             />
+                        <TextBlock      x:Name="lbl_Alterar_QuantidadeFilhos"  HorizontalAlignment="Left"    Margin="518,227,0,0"       VerticalAlignment="Top"      FontSize="18"                 TextWrapping="Wrap"     Height="20"                     />
+                        <TextBlock      x:Name="lbl_Alterar_Quantidade"            HorizontalAlignment="Left"    Margin="518,227,0,0"       VerticalAlignment="Top"      Text="Quantidade:"           FontSize="18"           TextWrapping="Wrap"             />
+
+                    </Grid>
+                </Grid>
+                <!--=========================================================-->
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>
+

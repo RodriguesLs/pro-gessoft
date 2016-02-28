@@ -1,0 +1,158 @@
+﻿<Page
+    x:Class="Gessoft.Pages.Home.PrincipalHome"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Gessoft.Pages.Home"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid Background="#FF151515" Margin="0,-4,0,4" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="140"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Back button and page title -->
+            <Grid Margin="0,-8,0,8">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+
+            <Grid  VerticalAlignment="Center" HorizontalAlignment="Center" Margin="485,2,125,132" Height="494" Width="756" Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+
+
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+
+                <!--Serviços-->
+                <Grid x:ConnectionId='2' Grid.Column="0"                                  Margin="3" >
+                    <Grid HorizontalAlignment="Left" Width="250" Height="250">
+                        <Border>
+                            <Border.Background>
+                                <ImageBrush ImageSource="ms-appx:///Assets/Servicos-Gessoft.png"/>
+                            </Border.Background>
+                            <Image Source="" Stretch="UniformToFill" AutomationProperties.Name="teste"/>
+                        </Border>
+                        <StackPanel VerticalAlignment="Bottom" Background="{StaticResource ListViewItemOverlayBackgroundThemeBrush}" Height="66">
+                            <TextBlock VerticalAlignment="Center"  HorizontalAlignment="Left"  FontSize="20" Foreground="{StaticResource ListViewItemOverlayForegroundThemeBrush}" Style="{StaticResource TitleTextStyle}" Height="60" Margin="18,15,15,0" FontWeight="Normal" Text="Serviços"/>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+
+                <Grid x:ConnectionId='3' Grid.Column="1" Margin="3"                                  >
+                    <Grid HorizontalAlignment="Left" Width="250" Height="250">
+                        <Border>
+                            <Border.Background>
+                                <ImageBrush ImageSource="ms-appx:///Assets/Relatorios.png"/>
+                            </Border.Background>
+                            <Image Source="" Stretch="UniformToFill" AutomationProperties.Name="teste"/>
+                        </Border>
+                        <StackPanel VerticalAlignment="Bottom" Background="{StaticResource ListViewItemOverlayBackgroundThemeBrush}" Height="66">
+                            <TextBlock VerticalAlignment="Center"  HorizontalAlignment="Left"  FontSize="20" Foreground="{StaticResource ListViewItemOverlayForegroundThemeBrush}" Style="{StaticResource TitleTextStyle}" Height="60" Margin="18,15,15,0" FontWeight="Normal" Text="Relatórios"/>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+
+                <Grid x:ConnectionId='4'                               Grid.Column="2" Margin="3" >
+                    <Grid HorizontalAlignment="Left" Width="250" Height="250">
+                        <Border>
+                            <Border.Background>
+                                <ImageBrush ImageSource="ms-appx:///Assets/Agenda-Gessoft.png"/>
+                            </Border.Background>
+                            <Image Source="" Stretch="UniformToFill" AutomationProperties.Name="teste" RenderTransformOrigin="1,1"/>
+                        </Border>
+                        <StackPanel VerticalAlignment="Bottom" Background="{StaticResource ListViewItemOverlayBackgroundThemeBrush}" Height="66">
+                            <TextBlock Text="Agenda"  FontSize="20" Foreground="{StaticResource ListViewItemOverlayForegroundThemeBrush}" Style="{StaticResource TitleTextStyle}" Height="45" Margin="15,15,15,0" FontWeight="Normal"/>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+
+
+
+
+
+                <Grid x:ConnectionId='5' Grid.Column="0" Grid.Row="1" Margin="3"                               >
+                    <Grid HorizontalAlignment="Left" Width="250" Height="250">
+                        <Border BorderBrush="Black">
+                            <Border.Background>
+                                <ImageBrush ImageSource="ms-appx:///Assets/Cliente-Gessoft.png"/>
+                            </Border.Background>
+                            <Image Source="" Stretch="UniformToFill" AutomationProperties.Name="teste"/>
+                        </Border>
+                        <StackPanel VerticalAlignment="Bottom" Background="{StaticResource ListViewItemOverlayBackgroundThemeBrush}" Height="66">
+                            <TextBlock  FontSize="20" Foreground="{StaticResource ListViewItemOverlayForegroundThemeBrush}" Style="{StaticResource TitleTextStyle}" Height="45" Margin="15,15,15,0" Text="Clientes" FontWeight="Normal"/>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+
+                <Grid x:ConnectionId='6' Grid.Column="1" Grid.Row="1"                                    Margin="3" >
+                    <Grid HorizontalAlignment="Left" Width="250" Height="250">
+                        <Border>
+                            <Border.Background>
+                                <ImageBrush ImageSource="ms-appx:///Assets/Funcionario-Gessoft.png"/>
+                            </Border.Background>
+                            <Image Source="" Stretch="UniformToFill" AutomationProperties.Name="teste"/>
+                        </Border>
+                        <StackPanel VerticalAlignment="Bottom" Background="{StaticResource ListViewItemOverlayBackgroundThemeBrush}" Height="66">
+                            <TextBlock  FontSize="19" Foreground="{StaticResource ListViewItemOverlayForegroundThemeBrush}" Style="{StaticResource TitleTextStyle}" Height="45" Margin="15,15,15,0" FontWeight="Normal" Text="Funcionários"/>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+
+                <Grid x:ConnectionId='7'                                   Grid.Column="2" Grid.Row="1" Margin="3"  >
+                    <Grid HorizontalAlignment="Left" Width="250" Height="250">
+                        <Border>
+                            <Border.Background>
+                                <ImageBrush ImageSource="ms-appx:///Assets/Gessoft-Fornecedor.png"/>
+                            </Border.Background>
+                            <Image Source="" Stretch="UniformToFill" AutomationProperties.Name="teste"/>
+                        </Border>
+                        <StackPanel VerticalAlignment="Bottom" Background="{StaticResource ListViewItemOverlayBackgroundThemeBrush}" Height="66">
+                            <TextBlock  FontSize="19" Foreground="{StaticResource ListViewItemOverlayForegroundThemeBrush}" Style="{StaticResource TitleTextStyle}" Height="45" Margin="15,15,15,0" Text="Fornecedores" FontWeight="Normal"/>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="748" Margin="10,10,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="397" Background="#FFEAE6E4">
+                <Border HorizontalAlignment="Left" Height="100" Margin="10,19,0,0" VerticalAlignment="Top" Width="106">
+                    <Border.Background>
+                        <ImageBrush Stretch="Uniform" ImageSource="ms-appx:///Assets/FotoBuky.png"/>
+                    </Border.Background>
+                </Border>
+                <TextBlock x:Name="lblUsuario" HorizontalAlignment="Left" Margin="124,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="37" Width="263" Foreground="#FF040000" FontSize="30" >
+                	<Run Text="Gessoft adm"/>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Left" Margin="10,718,0,0" TextWrapping="Wrap" Text="BuckyPaper company" VerticalAlignment="Top" Width="207" Foreground="#FF151515" FontSize="17"/>
+                <TextBlock x:Name="lblTextCliente" HorizontalAlignment="Left" Margin="10,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="258" Foreground="#FF151515" FontSize="17">
+                	<Run Text="Cliente Selecionado"/>
+                	<Run Text=":"/>
+                </TextBlock>
+                <TextBlock x:Name="lblNomeCliente" Margin="10,201,10,0" TextWrapping="Wrap" Text="Ayrton Felipe Sousa Tunes" VerticalAlignment="Top" Foreground="#FF151515" FontSize="25" Height="75"/>
+                <Border x:ConnectionId='1'                         BorderThickness="1" HorizontalAlignment="Left" Height="170" Margin="258,622,-53,-44" VerticalAlignment="Top" Width="192" RenderTransformOrigin="0.59,0.8">
+                    <Border.Background>
+                        <ImageBrush ImageSource="ms-appx:///Assets/Logout.png"/>
+                    </Border.Background>
+                </Border>
+
+
+            </Grid>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="216,519,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Page>
+

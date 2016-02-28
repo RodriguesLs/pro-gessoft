@@ -1,0 +1,179 @@
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Gessoft.csprojResolveAssemblyReference.cache
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\App.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\App.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Common\StandardStyles.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Common\StandardStyles.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\MainPage.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\MainPage.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaGesseiro.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaGesseiro.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaOrcamento.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaOrcamento.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaServico.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaServico.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Cliente\AlterarCliente.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Cliente\AlterarCliente.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Cliente\ConsultarCliente.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Cliente\ConsultarCliente.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Cliente\HistoricoCliente.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Cliente\HistoricoCliente.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Cliente\NovoCliente.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Cliente\NovoCliente.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\AlterarFornecedor.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\AlterarFornecedor.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\ConsultarFornecedor.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\ConsultarFornecedor.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\NovoFornecedor.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\NovoFornecedor.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\AlterarFuncionario.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\AlterarFuncionario.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\ConsultarFuncionario.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\ConsultarFuncionario.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\NovoFuncionario.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\NovoFuncionario.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Servicos\ConsultarOrcamento.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Servicos\ConsultarOrcamento.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Servicos\ConsultarServico.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Servicos\ConsultarServico.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Servicos\NovoOrcamento.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Servicos\NovoOrcamento.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Servicos\NovoServico.g.i.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Servicos\NovoServico.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\XamlTypeInfo.g.cs
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\App.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Common\StandardStyles.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\MainPage.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaGesseiro.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaOrcamento.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaServico.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Cliente\AlterarCliente.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Cliente\HistoricoCliente.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Cliente\NovoCliente.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\AlterarFornecedor.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\ConsultarFornecedor.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\NovoFornecedor.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\AlterarFuncionario.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\ConsultarFuncionario.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\NovoFuncionario.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Servicos\ConsultarOrcamento.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Servicos\ConsultarServico.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Servicos\NovoOrcamento.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Servicos\NovoServico.xaml
+c:\users\ayrton felipe\documents\visual studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Cliente\ConsultarCliente.xaml
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\bin\Debug\Gessoft.exe
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\bin\Debug\Gessoft.pdb
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\bin\Debug\resources.pri
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\bin\Debug\AppxManifest.xml
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\bin\Debug\Gessoft.build.appxrecipe
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\bin\Debug\MySql.Data.RT.dll
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Gessoft.exe
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Gessoft.pdb
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\MySql.Data.RT\en-US\MySql.Data.RT.Properties.Resources.resw
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Gessoft.csproj.GenerateResource.Cache
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\MySql.Data.RT.pri
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\MySql.Data.RT\LanguageQualifiers.txt
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\priconfig.xml
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\layout.resfiles
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\resources.resfiles
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\pri.resfiles
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\LanguageQualifiers.txt
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\ProjectArchitectures.txt
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\priconfig.xml.intermediate
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\layout.resfiles.intermediate
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\resources.resfiles.intermediate
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\pri.resfiles.intermediate
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Home\PrincipalHome.g.i.cs
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Home\PrincipalHome.g.cs
+C:\Users\Ayrton Felipe\Documents\Visual Studio 2012\Projects\Gessoft\Gessoft\obj\Debug\Pages\Home\PrincipalHome.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Gessoft.exe
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Gessoft.pdb
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\resources.pri
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\AppxManifest.xml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\Gessoft.build.appxrecipe
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\bin\Debug\MySql.Data.RT.dll
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Gessoft.csprojResolveAssemblyReference.cache
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\App.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\App.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\MainPage.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\MainPage.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaGesseiro.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaGesseiro.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaOrcamento.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaOrcamento.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaServico.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaServico.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Cliente\AlterarCliente.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Cliente\AlterarCliente.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Cliente\ConsultarCliente.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Cliente\ConsultarCliente.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Cliente\HistoricoCliente.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Cliente\HistoricoCliente.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Cliente\NovoCliente.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Cliente\NovoCliente.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\AlterarFornecedor.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\AlterarFornecedor.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\ConsultarFornecedor.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\ConsultarFornecedor.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\NovoFornecedor.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\NovoFornecedor.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\AlterarFuncionario.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\AlterarFuncionario.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\ConsultarFuncionario.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\ConsultarFuncionario.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\NovoFuncionario.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\NovoFuncionario.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Home\PrincipalHome.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Home\PrincipalHome.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Servicos\ConsultarOrcamento.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Servicos\ConsultarOrcamento.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Servicos\ConsultarServico.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Servicos\ConsultarServico.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Servicos\NovoOrcamento.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Servicos\NovoOrcamento.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Servicos\NovoServico.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Servicos\NovoServico.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\App.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Common\StandardStyles.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\MainPage.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaGesseiro.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaOrcamento.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Agenda\AgendaServico.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Cliente\AlterarCliente.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Cliente\ConsultarCliente.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Cliente\HistoricoCliente.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Cliente\NovoCliente.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\AlterarFornecedor.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\ConsultarFornecedor.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Fornecedor\NovoFornecedor.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\AlterarFuncionario.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\ConsultarFuncionario.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Funcionario\NovoFuncionario.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Home\PrincipalHome.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Servicos\ConsultarOrcamento.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Servicos\ConsultarServico.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Servicos\NovoOrcamento.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Servicos\NovoServico.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Gessoft.exe
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Gessoft.pdb
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Gessoft.csproj.GenerateResource.Cache
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\MySql.Data.RT.pri
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\MySql.Data.RT\LanguageQualifiers.txt
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\priconfig.xml.intermediate
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\layout.resfiles.intermediate
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\resources.resfiles.intermediate
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\pri.resfiles.intermediate
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\priconfig.xml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\layout.resfiles
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\resources.resfiles
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\pri.resfiles
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\LanguageQualifiers.txt
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\ProjectArchitectures.txt
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Login\FrmLogin.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Login\FrmLogin.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Login\FrmLogin.xaml
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Relatorios\FrmRelatorios.g.i.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Relatorios\FrmRelatorios.g.cs
+C:\Users\Ayrton Felipe\Dropbox\Gessoft\Gessoft\obj\Debug\Pages\Relatorios\FrmRelatorios.xaml

@@ -1,0 +1,88 @@
+﻿<Page
+    x:Class="Gessoft.Pages.Funcionario.ConsultarFuncionario"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Gessoft.Pages.Funcionario"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid >
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="6*" />
+                <RowDefinition Height="40*" />
+
+            </Grid.RowDefinitions>
+
+
+
+            <Grid Grid.Row="0" Background="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10*" />
+                    <ColumnDefinition Width="120*"/>
+                    <ColumnDefinition Width="0*"/>
+                    <ColumnDefinition Width="373*" />
+                    <ColumnDefinition Width="127*" />
+                    <ColumnDefinition Width="110*" />
+                    <ColumnDefinition Width="140*" />
+                    <ColumnDefinition Width="170*" />
+                    <ColumnDefinition Width="316*" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center"  x:Name="backButton" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}" Height="51" Margin="36,28,0,21" Width="49" Click="backButton_Click"/>
+
+                <TextBlock Grid.Column="2" FontSize="69" Text="Funcionário" Margin="0,2,8,0" FontFamily="Segoe UI" Grid.ColumnSpan="2" />
+
+                <Button x:Name="btn_ConsultarFuncionario" Grid.Column="4" Content="Consultar"               Tag="0" BorderThickness="0" FontFamily="Segoe UI" VerticalAlignment="Bottom" Margin="0,0,0,16" Height="34" Width="94"   Click="btn_ConsultarFuncionario_Click" />
+                <Button x:Name="btn_NovoFuncionario"      Grid.Column="5" Content="Novo"                    Tag="1" BorderThickness="0" FontFamily="Segoe UI" VerticalAlignment="Bottom" Margin="0,0,0,16" Height="34" Width="67"   Click="btn_NovoFuncionario_Click" />
+                <Button x:Name="btn_AlterarFuncionario"   Grid.Column="6" Content="Alterar"                 Tag="2" BorderThickness="0" FontFamily="Segoe UI" VerticalAlignment="Bottom" Margin="0,0,0,16" Height="34" Width="89"   Click="btn_AlterarFuncionario_Click" />
+
+
+            </Grid>
+            <FlipView x:Name="_flipVw"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" ManipulationMode="All">
+                <FlipView.Transitions>
+                    <TransitionCollection>
+                        <PaneThemeTransition/>
+                    </TransitionCollection>
+                </FlipView.Transitions>
+                <Grid>
+                    <Grid Background="#FF007ACC" Margin="2,0,-2,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="461*"/>
+                            <ColumnDefinition Width="899*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock FontSize="59" x:Name="pageTitle" Text="Consulta de Funcionário" IsHitTestVisible="false" Style="{StaticResource PageHeaderTextStyle}" Margin="34,0,720,574" Grid.ColumnSpan="2"/>
+
+
+
+
+                        <TextBlock      x:Name="lbl_Consultar_Nome"     Margin="216.918,33,0,0"     TextWrapping="Wrap"         Text="Nome:"                VerticalAlignment="Top" FontSize="18"               Grid.Column="1" />
+                        <TextBox        x:Name="txt_Consultar_Nome"     HorizontalAlignment="Left"  Margin="283,25,0,0"         TextWrapping="Wrap"         VerticalAlignment="Top" Width="403"                 Grid.Column="1"/>
+                        <Button         x:Name="BtnPesquisarFuncionario"    Content="Buscar"            HorizontalAlignment="Left"  Height="91"                 Margin="699,22,0,0"     VerticalAlignment="Top"     Width="103"                          Grid.Column="1"    Click="BtnPesquisarFuncionario_Click"/>
+                        <TextBlock      HorizontalAlignment="Left"      Margin="200,83,0,0"         TextWrapping="Wrap"         VerticalAlignment="Top"     FontSize="18"           Grid.Column="1"             Text="Telefone:"/>
+                        <TextBox x:Name="txt_Consultar_Tel"        HorizontalAlignment="Left"      Margin="283,78,0,0"         TextWrapping="Wrap"         VerticalAlignment="Top"     Width="403"             Grid.Column="1"/>
+
+                        <!--GRID DE PESQUISA  -->
+                        <Grid x:Name="GridPesquisa"   Margin="0,148,0,0" Grid.ColumnSpan="2">
+                            <GridView x:Name="BadReligion" SelectionChanged="BadReligion_SelectionChanged">
+
+
+                            </GridView>
+
+                        </Grid>
+                    </Grid>
+                </Grid>
+
+            </FlipView>
+
+
+
+        </Grid>
+
+    </Grid>
+</Page>

@@ -1,0 +1,45 @@
+Assets\Agenda-Gessoft.png
+Assets\Cliente-Gessoft.png
+Assets\FotoBuky.png
+Assets\Funcionario-Gessoft.png
+Assets\Gessoft-Fornecedor.png
+Assets\Gessoft-Servicos.png
+Assets\logo 150x150.png
+Assets\logo 24x24.png
+Assets\logo 30x30.png
+Assets\logo 50x50.png
+Assets\Logo.png
+Assets\Logout.png
+Assets\Relatorios.png
+Assets\Servicos-Gessoft.png
+Assets\SmallLogo.png
+Assets\Splash screen.png
+Assets\SplashScreen.png
+Assets\StoreLogo.png
+Assets\wide logo 310x150.png
+App.xaml
+Common\StandardStyles.xaml
+MainPage.xaml
+Pages\Agenda\AgendaGesseiro.xaml
+Pages\Agenda\AgendaOrcamento.xaml
+Pages\Agenda\AgendaServico.xaml
+Pages\Cliente\AlterarCliente.xaml
+Pages\Cliente\ConsultarCliente.xaml
+Pages\Cliente\HistoricoCliente.xaml
+Pages\Cliente\NovoCliente.xaml
+Pages\Fornecedor\AlterarFornecedor.xaml
+Pages\Fornecedor\ConsultarFornecedor.xaml
+Pages\Fornecedor\NovoFornecedor.xaml
+Pages\Funcionario\AlterarFuncionario.xaml
+Pages\Funcionario\ConsultarFuncionario.xaml
+Pages\Funcionario\NovoFuncionario.xaml
+Pages\Home\PrincipalHome.xaml
+Pages\Login\FrmLogin.xaml
+Pages\Relatorios\FrmRelatorios.xaml
+Pages\Servicos\ConsultarOrcamento.xaml
+Pages\Servicos\ConsultarServico.xaml
+Pages\Servicos\NovoOrcamento.xaml
+Pages\Servicos\NovoServico.xaml
+Common\ReadMe.txt
+Splash screen.png
+wide logo 310x150.png
